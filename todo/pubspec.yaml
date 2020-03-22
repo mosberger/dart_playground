@@ -1,0 +1,28 @@
+name: todo
+description: An empty Aqueduct application.
+version: 0.0.1
+author: stable|kernel <jobs@stablekernel.com>
+
+environment:
+  sdk: ">=2.0.0 <3.0.0"
+
+dependencies:
+  aqueduct: ^3.2.1
+  equatable: ^1.1.1
+  linter: ^0.1.113
+  freezed_annotation: ^0.7.1
+  kiwi: ^0.2.0
+  uuid_type: ^1.1.1
+  mockito: ^4.1.1
+
+dev_dependencies:
+  test: ^1.14.2
+  aqueduct_test: ^1.0.1
+  freezed: ^0.10.2
+  build_runner: ^1.8.0
+  kiwi_generator: ^0.4.0
+  json_serializable: ^3.2.5
+
+dependency_overrides:
+  analyzer: ^0.39.4
+  build: ^1.2.2
